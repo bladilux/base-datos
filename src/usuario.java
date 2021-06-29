@@ -39,6 +39,7 @@ public class usuario {
             stmt.setString(2, nombre);
             stmt.setString(3, correo);
             stmt.setString(4, telefono);
+            //G
 
             int retorno = stmt.executeUpdate();
             if (retorno > 0) {
